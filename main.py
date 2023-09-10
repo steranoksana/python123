@@ -1,35 +1,15 @@
-# # Запитуємо в користувача три числа
-#
-# num1 = float(input("Enter the first number: "))
-#
-# num2 = float(input("Enter the second number: "))
-#
-# num3 = float(input("Enter the third number: "))
-#
-# # Обчислюємо середнє арифметичне значення
-#
-# average = (num1 + num2 + num3) / 3
-#
-# # Виводимо результат
-#
-# print("arithmetic mean:", average)
-# ##########
+# Запитуємо в користувача три числа
 
+num1 = float(input("Enter the first number: "))
 
-nums = list(map(int, input("Введите 3 числа через пробел: ").split()))
+num2 = float(input("Enter the second number: "))
 
-print(nums)
+num3 = float(input("Enter the third number: "))
 
-what = int(input("Максимум - 1 \n Минимум - 2 \n Среднее - 3\n"))
+# Обчислюємо середнє арифметичне значення
 
-if what == 1:
+average = (num1 + num2 + num3) / 3
 
-   print(f"Максимальное: {max(nums)}")
+# Виводимо результат
 
-elif what == 2:
-
-   print(f"Минимальное: {min(nums)}")
-
-elif what == 3:
-
-   print(f"Среднее: {sum(nums) / len(nums)}")
+print("arithmetic mean:", average)
