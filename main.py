@@ -13,21 +13,23 @@
 # # Виводимо результат
 #
 # print("arithmetic mean:", average)
+# ##########
 
-# meters = int(input("Введите кол-во метров: "))
-#
-# what = int(input("Во что вы хотите перевести метры? Мили - 1\n Дюймы - 2\n Ярды - 3"))
-#
-# if what == 1:
-#
-#    print(f"{meters} метров = {meters*0.000621} миль")
-#
-# elif what == 2:
-#
-#    print(f"{meters} метров = {meters*39.37} дюймов")
-#
-# elif what == 3:
-#
-# print("arithmetic mean:", average)
 
-print ("Hello world")
+nums = list(map(int, input("Введите 3 числа через пробел: ").split()))
+
+print(nums)
+
+what = int(input("Максимум - 1 \n Минимум - 2 \n Среднее - 3\n"))
+
+if what == 1:
+
+   print(f"Максимальное: {max(nums)}")
+
+elif what == 2:
+
+   print(f"Минимальное: {min(nums)}")
+
+elif what == 3:
+
+   print(f"Среднее: {sum(nums) / len(nums)}")
