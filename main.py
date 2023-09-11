@@ -51,3 +51,8 @@ average = (num1 + num2 + num3) / 3
 
 print("Середнє арифметичне значення:", average)
 
+print("hello")
+
+print("some text")
+
+print("more text")
